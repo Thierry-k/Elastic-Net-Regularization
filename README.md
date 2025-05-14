@@ -22,7 +22,7 @@ To assess how Elastic Net performs compared to its constituent methods (Lasso an
 ## 📁 Project Structure
 
 ```
-├── elastic_net_project_code.md         # Complete R markdown for simulation, modeling, and plotting
+├── elastic_net_project_code.md  # Complete R markdown for simulation, modeling, and plotting
 ├── README.md                    # Project description and usage instructions
 ├── figure-gfm/                  # Output graphs
 └── report/                      # Final report
