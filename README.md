@@ -22,7 +22,7 @@ To assess how Elastic Net performs compared to its constituent methods (Lasso an
 ## 📁 Project Structure
 
 ```
-├── Accompanying_code.md         # Complete R markdown for simulation, modeling, and plotting
+├── elastic_net_project_code.md         # Complete R markdown for simulation, modeling, and plotting
 ├── README.md                    # Project description and usage instructions
 ├── figure-gfm/                  # Output graphs
 └── report/                      # Final report
@@ -43,7 +43,7 @@ install.packages(c("MASS", "glmnet", "ggplot2", "reshape2"))
 ## 🚀 How to Run
 
 1. Clone the repository
-2. Open `elastic_net_project_code.R` in RStudio or another R environment
+2. Open `elastic_net_project_code.md` in RStudio or another R environment
 3. Run the full script to simulate data, fit models, and generate outputs
 
 ## 📄 License
