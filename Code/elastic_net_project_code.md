@@ -143,7 +143,7 @@ ggplot(mse_df, aes(x = as.numeric(Rho), y = MSE, color = factor(Alpha))) +
   theme_minimal()
 ```
 
-![](Code/figure-gfm/monte-carlo-simulation-1.png)<!-- -->
+![](Code/figure-gfm/monte-carlo-simulation-1.png)
 
 ``` r
 # Visualize coefficient paths for different alpha values
