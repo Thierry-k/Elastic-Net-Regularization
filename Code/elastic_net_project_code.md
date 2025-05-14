@@ -143,7 +143,7 @@ ggplot(mse_df, aes(x = as.numeric(Rho), y = MSE, color = factor(Alpha))) +
   theme_minimal()
 ```
 
-![](Accompanying-Code_files/figure-gfm/monte-carlo-simulation-1.png)<!-- -->
+![](Code/figure-gfm/monte-carlo-simulation-1.png)<!-- -->
 
 ``` r
 # Visualize coefficient paths for different alpha values
@@ -159,7 +159,7 @@ plot_coefficient_paths(data_small$X, data_small$Y, alpha = 0.5)
 plot_coefficient_paths(data_small$X, data_small$Y, alpha = 0.9)
 ```
 
-![](Accompanying-Code_files/figure-gfm/coefficient-paths-1.png)<!-- -->
+![](Code/figure-gfm/coefficient-paths-1.png)<!-- -->
 
 ``` r
 par(mfrow = c(1, 1))
